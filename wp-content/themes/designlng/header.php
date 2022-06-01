@@ -14,11 +14,19 @@
     <div class="wrapper">
       <div class="page-header__wrapper">
         <div class="page-header__logo-wrapper">
-        <?php the_custom_logo();?>
+          <a href="<?php bloginfo('url');?>">
+            <?php the_custom_logo();?>
+          </a>
         </div>
         <div class="page-header__menu-wrapper">
           <nav class="menu-primary-container">
-            <ul class="menu">
+          <?php wp_nav_menu(array(
+            'theme_location'=> 'main_menu',
+            'container' => null,
+            'menu_class' => 'menu',
+            'menu_id' => 'menu',
+          ));?>
+            <!-- <ul class="menu">
               <li class="menu-item menu-item-has-children"><a href="#">Наши проекты</a>
                 <ul class="sub-menu">
                   <li class="menu-item"><a href="#">Tomazzi Hall</a></li>
@@ -28,7 +36,7 @@
               </li>
               <li class="menu-item"><a href="#">Контакты</a></li>
               <li class="menu-item menu-item--styled"><a href="#">Оставить отзыв</a></li>
-            </ul>
+            </ul> -->
           </nav>
         </div>
       </div>

@@ -258,9 +258,17 @@ body {
 }
 .menu-primary-container .menu-item-has-children {
   position: relative;
-  background-image: url(https://chiprose.github.io/interiorlng-wp/wp-content/themes/interiorlng-wp/assets/img/icon/icon-down.svg);
-  background-repeat: no-repeat;
-  background-position: calc(100% - 20px) 50%;
+}
+.menu-primary-container .menu-item-has-children::after {
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 15px;
+  right: 13px;
+  border: 9px solid transparent;
+  border-top-color: #f5d581;
+  border-top-color: var(--cl-decorate-accent);
 }
 .menu-primary-container .menu-item-has-children a {
   padding-right: 17px;
