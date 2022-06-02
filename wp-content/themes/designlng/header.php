@@ -26,17 +26,6 @@
             'menu_class' => 'menu',
             'menu_id' => 'menu',
           ));?>
-            <!-- <ul class="menu">
-              <li class="menu-item menu-item-has-children"><a href="#">Наши проекты</a>
-                <ul class="sub-menu">
-                  <li class="menu-item"><a href="#">Tomazzi Hall</a></li>
-                  <li class="menu-item"><a href="#">Lounge Hall</a></li>
-                  <li class="menu-item"><a href="#">Astra Hall</a></li>
-                </ul>
-              </li>
-              <li class="menu-item"><a href="#">Контакты</a></li>
-              <li class="menu-item menu-item--styled"><a href="#">Оставить отзыв</a></li>
-            </ul> -->
           </nav>
         </div>
       </div>

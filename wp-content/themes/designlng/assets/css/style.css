@@ -176,29 +176,40 @@ template {
   font-weight: 700;
   font-style: normal;
   font-display: swap;
-  src: url(https://chiprose.github.io/interiorlng-wp/wp-content/themes/interiorlng-wp/assets/fonts/Montserrat-Bold.woff2) format("woff2"), url(https://chiprose.github.io/interiorlng-wp/wp-content/themes/interiorlng-wp/assets/fonts/Montserrat-Bold.woff) format("woff");
+  src: url(https://chiprose.github.io/interiorlng-wp/wp-content/themes/interiorlng-wp/assets/fonts/Montserrat-Bold.woff2)
+      format("woff2"),
+    url(https://chiprose.github.io/interiorlng-wp/wp-content/themes/interiorlng-wp/assets/fonts/Montserrat-Bold.woff)
+      format("woff");
 }
 @font-face {
   font-family: Montserrat;
   font-weight: 500;
   font-style: normal;
   font-display: swap;
-  src: url(https://chiprose.github.io/interiorlng-wp/wp-content/themes/interiorlng-wp/assets/fonts/Montserrat-Medium.woff2) format("woff2"), url(https://chiprose.github.io/interiorlng-wp/wp-content/themes/interiorlng-wp/assets/fonts/Montserrat-Medium.woff) format("woff");
+  src: url(https://chiprose.github.io/interiorlng-wp/wp-content/themes/interiorlng-wp/assets/fonts/Montserrat-Medium.woff2)
+      format("woff2"),
+    url(https://chiprose.github.io/interiorlng-wp/wp-content/themes/interiorlng-wp/assets/fonts/Montserrat-Medium.woff)
+      format("woff");
 }
 @font-face {
   font-family: Montserrat;
   font-weight: 400;
   font-style: normal;
   font-display: swap;
-  src: url(https://chiprose.github.io/interiorlng-wp/wp-content/themes/interiorlng-wp/assets/fonts/Montserrat-Regular.woff2) format("woff2"), url(https://chiprose.github.io/interiorlng-wp/wp-content/themes/interiorlng-wp/assets/fonts/Montserrat-Regular.woff) format("woff");
+  src: url(https://chiprose.github.io/interiorlng-wp/wp-content/themes/interiorlng-wp/assets/fonts/Montserrat-Regular.woff2)
+      format("woff2"),
+    url(https://chiprose.github.io/interiorlng-wp/wp-content/themes/interiorlng-wp/assets/fonts/Montserrat-Regular.woff)
+      format("woff");
 }
 @font-face {
   font-family: Montserrat;
   font-weight: 300;
   font-style: italic;
   font-display: swap;
-  src: url(https://chiprose.github.io/interiorlng-wp/wp-content/themes/interiorlng-wp/assets/fonts/Montserrat-LightItalic.woff2) format("woff2"),
-    url(https://chiprose.github.io/interiorlng-wp/wp-content/themes/interiorlng-wp/assets/fonts/Montserrat-LightItalic.woff) format("woff");
+  src: url(https://chiprose.github.io/interiorlng-wp/wp-content/themes/interiorlng-wp/assets/fonts/Montserrat-LightItalic.woff2)
+      format("woff2"),
+    url(https://chiprose.github.io/interiorlng-wp/wp-content/themes/interiorlng-wp/assets/fonts/Montserrat-LightItalic.woff)
+      format("woff");
 }
 html {
   margin: 0;
@@ -264,11 +275,13 @@ body {
   width: 0;
   height: 0;
   position: absolute;
-  top: 15px;
-  right: 13px;
-  border: 9px solid transparent;
+  top: 17px;
+  right: 15px;
+  border: 8px solid transparent;
   border-top-color: #f5d581;
   border-top-color: var(--cl-decorate-accent);
+  border-radius: 3px;
+  transform: scaleX(80%);
 }
 .menu-primary-container .menu-item-has-children a {
   padding-right: 17px;
@@ -403,7 +416,8 @@ body {
   padding: 40px 126px;
   margin: 0 auto;
   margin-bottom: 32px;
-  width: 668px;
+  width: 920px;
+  box-sizing: border-box;
   font-size: 24px;
   font-size: var(--fz-quote);
   line-height: 1.5;
@@ -588,7 +602,6 @@ body {
 }
 .page-footer {
   padding: 60px 0 28px;
-  background: url(https://chiprose.github.io/designlng_wp/wp-content/themes/https://chiprose.github.io/designlng_wp/assets/img/footer/darker-bg.png), url(https://chiprose.github.io/designlng_wp/wp-content/themes/https://chiprose.github.io/designlng_wp/assets/img/footer/design.jpg);
   background-color: hsla(43, 85%, 73%, 0.3);
   background-color: var(--cl-decorate-accent03);
   background-repeat: no-repeat;

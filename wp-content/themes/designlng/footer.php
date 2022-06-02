@@ -1,4 +1,4 @@
-  <footer class="page-footer">
+  <footer class="page-footer" style="background-image:url('<?php bloginfo("template_url");?>/assets/images/footer/darker-bg.png'), url('<?php bloginfo("template_url");?>/assets/images/footer/design.jpg')">
     <div class="wrapper">
       <div class="page-footer__wrapper">
         <div class="page-footer__phone-wrapper">
